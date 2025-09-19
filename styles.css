@@ -1,53 +1,53 @@
 #header {
-    font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 3vh;
-    background-color: black;
-    color: white;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
-    display: block;
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 3vh;
+  background-color: black;
+  color: white;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  display: block;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw; /* spacing between images */
-    margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw; /* spacing between images */
+  margin-top: 2vh;
 }
 
 .image-box {
-    position: relative;
-    display: inline-block;
-    text-decoration: none; /* removes link underline */
-    color: inherit; /* inherit text color */
+  position: relative;
+  display: inline-block;
+  text-decoration: none; /* removes link underline */
+  color: inherit; /* inherit text color */
 }
 
 .image-box img {
-    width: 31.5vw;
-    height: 67vh;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
-    display: block;
+  width: 31.5vw;
+  height: 67vh;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  display: block;
 }
 
 .image-text {
-    position: absolute;
-    top: 10px; /* distance from the top */
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.5vw;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    pointer-events: none; /* so clicks go through to the link */
+  position: absolute;
+  top: 10px; /* distance from the top */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  pointer-events: none; /* so clicks go through to the link */
 }
 
 .image-box:hover .image-text {
-    text-decoration: underline;
+  text-decoration: underline;
 }
